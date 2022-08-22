@@ -1,0 +1,177 @@
+#nav{
+  /* background-color:rgb(70, 134, 70); */
+  position: fixed; 
+  z-index: 999;
+   display: flex;
+    align-items: center;
+     width: 100%;
+     height: 200px;
+    
+ }
+
+#font{
+  color:green;
+  font-size:large;
+  /* font-weight: 300; */
+   /* margin-left: 10px;  */
+  /* padding-left: 100px;  */
+  transition: 0.7s ease;
+}
+#font:hover{
+    transform: scale(1.1);
+    color:green;  
+}
+.nav-image{
+  width: 150px;
+  margin-top:-60px;
+  margin-bottom:-35px;
+}
+
+.cardheader{
+  background-color: white;
+  box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+  border-radius: 10px;
+  height: 400px;
+  width: 399px;
+  margin-right: 40px;
+  text-align: center;
+
+}
+.headerhome .cardheader{
+  text-align: center;
+}
+
+.part1{
+    text-align: center;
+
+}
+.part2{
+    background-color: white;
+    /* box-shadow: 0 5px 25px rgba(1 1 1 /20%); */
+    width: 100%;
+}
+i{
+    font-size: 120px;
+    color: green;
+}
+.card{
+background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    border-radius: 10px;
+    /* padding: 26px; */
+    height: 400px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card2{
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    border-radius: 10px;
+    /* padding: 26px; */
+    height: 230px;
+    width: 250px;
+    transition: 0.7s ease;
+}
+.card2:hover{
+    transform: scale(1.1);
+}
+
+
+.footer{
+  /* background-color:rgb(70, 134, 70); */
+  color:black;
+  /* padding: 2em; */
+  padding: 5px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* page1Insects */
+.header{
+  height:650px;
+  width: 100%;
+  background-image: url(./pexels-tima-miroshnichenko-6197116.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header h1{
+  color:white;
+  margin-top:250px ;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+/* .header p{
+  color:white;
+  margin-top:-30px ;
+  margin-left: 200px;
+  margin-right:100px ;
+  
+  
+ } */
+
+/* page2clean */
+.header2{
+  height:650px;
+  width: 100%;
+  background-image: url(./photo_2022-07-23_04-49-14.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header2 h1{
+  color:white;
+  margin-top:250px ;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+/* .header2 p{
+  color:white;
+  margin-top:10px ;
+  margin-left: 200px;
+  margin-right:100px ;
+} */
+
+/* clean2 */
+.header3{
+  height:650px;
+  width: 100%;
+  background-image: url(./تعقيمات.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header3 h1{
+  color:white;
+  margin-top:300px ;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+.header3 h2{
+  color:white;
+  margin-top:20px ;
+  margin-left: 200px;
+  margin-right:100px ;
+}
+.header4{
+  height:650px;
+  width: 100%;
+  background-image: url(./contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header4 h1{
+  color:white;
+  margin-top:200px ;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+.header4 h2{
+  color:white;
+  margin-top:20px ;
+  margin-left: 200px;
+  margin-right:100px ;
+}
